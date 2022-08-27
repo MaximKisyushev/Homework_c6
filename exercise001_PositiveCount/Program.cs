@@ -20,7 +20,7 @@ void PrintArray(int[] col)
 }
 
 int count=0;
-Console.WriteLine("Ведите числа: ");
+Console.WriteLine("Введите числа: ");
 int[] array = new int[new Random().Next(1, 10)];
 FillArray(array);
 PrintArray(array);
